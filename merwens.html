@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boy Living In Fiction</title>
+    <link rel="stylesheet" href="main_styles.css">
+    
+<style>
+	* {
+    margin:0;
+    padding:0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+}
+
+.main-container {
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://static.zerochan.net/Straw.Hat.Pirates.full.2992935.jpg);
+    background-position: center;
+    position: relative;
+    background-size: contain;
+}
+.section1{
+    color: black;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    text-align: center;
+    border: 2px black double;
+    box-shadow: 15px 5px 50px ;
+    border-radius: 30px;
+}
+.main-cotainer2 {
+    width: 100%;
+    height: 100vh;
+    background-color:#344c83;
+    position: relative;
+}
+.section2 {
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.section2 h3 {
+    font-size: 50px;
+    color: blanchedalmond;
+    border: 2px blanchedalmond double;
+    background-image: linear-gradient( to right, #000428 , #004e92);
+    
+}
+
+
+.section2 p {
+    font-size: 20px;
+}
+
+
+.img-bike{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 320px;
+    background-size: 100%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px black double;
+    border-radius: 30px;
+    background-image: url(https://lyricsfromanime.com/animes-info/yowamushi-pedal-grande-road/cover/yowamushi-pedal-grande-road-lyrics.jpg);
+}
+.img-bike2{
+    height: 320px;
+    width: 300px;
+    background-size: 100%;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    border: 2px black double;
+    border-radius: 30px;
+    background-image: url(https://kalongkong.files.wordpress.com/2014/04/imaizumi.jpeg?w=584);
+
+
+}.img-bike3{
+    height: 320px;
+    width: 300px;
+    background-size: 100%;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    border: 2px black double;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWRn8a8EEc1Xa9svO8MvhIu1SxKKJCSwhLjQ&usqp=CAU);
+}
+
+.main-container3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#344c83 , #658ff3 );
+    position: relative;
+}
+.section3{
+    color: black;
+    position: absolute;
+    width: 90%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+.section3 h3{
+    font-size: 70px;
+    color: blanchedalmond;
+    background-image: linear-gradient( to right, #000428 , #004e92);
+    border: 2px blanchedalmond double;
+    position: relative;
+}
+
+.section3 p{
+    font-size: 20px;
+    
+}
+
+.img-fate1{
+    height: 350px;
+    width: 300px;
+    background-size: cover;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px blanchedalmond double;
+    border-radius: 30px;
+    background-image: url(https://qph.fs.quoracdn.net/main-qimg-6e4440156c58afe5a717e4b975c4f471-lq);
+}
+.img-fate2{
+    height: 250px;
+    width: 450px;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    border: 2px blanchedalmond double;
+    border-radius: 30px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/347/404/1005/fate-stay-night-archer-swords-scenic-wallpaper-preview.jpg);
+}
+.img-fate3{
+    height: 250px;
+    width: 450px;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    border: 2px blanchedalmond double;
+    border-radius: 30px;
+    background-image: url(http://www.shadowedblade.net/wp-content/uploads/FSN-Scenery.png);
+}
+.main-container4{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#658ff3,#344c83   );
+    position: relative;
+}
+
+.section4{
+    color: black;
+    position: absolute;
+    width: 90%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+
+
+
+.section4 h1{
+    font-size: 70px;
+    color:blanchedalmond;
+    background-image: linear-gradient( to right, #000428 , #004e92);
+    border: 2px blanchedalmond double;
+    position: relative; 
+}
+.section4 p{
+    font-size: 20px;
+}
+
+
+.img-haikyuu1{
+    height: 300px;
+    width: 550px;
+    position: absolute;
+    top: 70%;
+    left: 77%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    border: 2px blanchedalmond double;
+    border-radius: 30px;
+    background-image: url(https://coolthemestores.com/wp-content/uploads/2021/01/haikyuu-featured.png);
+}
+.img-haikyuu2{
+    height: 250px;
+    width: 50%;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    border: 2px blanchedalmond double;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 30px;
+    background-image: url(https://images.hdqwalls.com/wallpapers/thumb/sung-jin-woo-solo-leveling-8y.jpg);
+}
+
+.main-container5 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#344c83,#658ff3 );
+    position: relative;
+}
+
+.section5{
+    color: black;
+    position: absolute;
+    width: 90%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.section5 h1{
+    font-size: 70px;
+    color:blanchedalmond;
+    background-image: linear-gradient( to right, #000428 , #004e92);
+    border: 2px blanchedalmond double;
+    position: relative; 
+}
+
+.section5 p{
+    font-size: 20px;
+}
+
+.img-sport1 {
+    height: 250px;
+    width: 600px;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    border: 2px blanchedalmond double;
+    background-size: cover;
+    border-radius: 30px;
+    background-image: url(https://recommendmeanime.com/wp-content/uploads/2017/01/yowamushi-pedal-anime.jpg);
+}
+
+.img-sport2{
+    height: 350px;
+    width: 500px;
+    position: absolute;
+    top: 70%;
+    left: 24%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    border: 2px blanchedalmond double;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 30px;
+    background-image: url(https://ih1.redbubble.net/image.1156612035.2894/st,small,507x507-pad,600x600,f8f8f8.jpg);
+}
+.main-container6{
+    width: 100%;
+    height: 500vh;
+    background-image: linear-gradient(#658ff3,#344c83 );
+    position: relative;
+}
+.section6{
+    color: black;
+    position: absolute;
+    width: 90%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.section6 h1 {
+    font-size: 70px;
+    color:blanchedalmond;
+    background-image: linear-gradient( to right, #000428 , #004e92);
+    border: 2px blanchedalmond double;
+    position: relative; 
+}
+.section p{
+    font-size: 20px;
+}
+.img-game1{
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 28%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    border:2px black double;
+    background-repeat: no-repeat;
+    background-image: url(https://i.pinimg.com/originals/4c/0b/51/4c0b5190cf49d2d3e16d8ab56c632b44.jpg);
+}
+.img-game2{
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    border:2px black double;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-image: url(https://media.gold.razer.com/goldweb/content/catalogs/gold/mobile-legends/attachment/JVQXG5DIMVQWILKMN5TW6LJVGQYHQMJYGU======.png);
+}
+.img-game3{
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 48%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    border:2px black double;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-image: url(https://wallpapercave.com/wp/wp6548068.jpg);
+}
+.img-game4{
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 58%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    border:2px black double;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-image: url(https://logos-world.net/wp-content/uploads/2020/10/Roblox-Logo.png);
+}
+.img-game5{
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 68%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    border:2px black double;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn1.dotesports.com/wp-content/uploads/2021/03/01195040/ac5c3956fa61d9cf951e57bd83990e4e.jpg);
+}
+.img-game6{
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 78%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    background-size: contain;
+    border-radius: 30px;
+    border:2px black double;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-image: url(https://1000logos.net/wp-content/uploads/2021/02/Clash-of-Clans-logo.png);
+}
+.img-game7{
+    width: 80%;
+    height: 400px;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-position: center;
+    background-size: contain;
+    border-radius: 30px;
+    border:2px black double;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-image: url(https://logowik.com/content/uploads/images/genshin-impact4958.jpg);
+}
+
+.main-container7{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://wallpapercave.com/wp/wp2771916.jpg);
+    position: relative;
+}
+.section7 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    position: absolute;
+}
+.section7 h1{
+    border: 2px white solid;
+}
+</style>
+
+
+</head>
+<body>
+    <div class="main-container">
+        <div class="section1">
+            <h1>I PREFER LIVING IN FICTION</h1>
+            <br>
+            <P>the content you will see here is all abou me, <br> Merwen Casio</P>
+        </div>
+    </div>
+    <div class="main-cotainer2">
+        <div class="section2">
+            <h3>Likes</h3>
+            <br>
+            <p>What i like is bikes but i hate cleaning it and simple things like my bike its simple i also like music specially bruno mars songs and people who say thank you</p>
+        </div>
+        <img class="img-bike">
+        <img class="img-bike2">
+        <img class="img-bike3">
+    </div>
+    <div class="main-container3">
+        <div class="section3">
+            <h3>dislike</h3>
+            <br>
+            <p>Vegetable, cold, standing top long, cleaning, complicated stuff, noise, ungrateful people </p>
+        </div>
+            <img class="img-fate1">
+            <img class="img-fate2">
+            <img class="img-fate3"> 
+    </div>
+    <div class="main-container4">
+        <div class="section4">
+            <h1>Hobbies</h1>
+            <br>
+            <p>cycling with friends, volleyball, playing online games, reading manga and manhwa watching anime</p>
+        </div>
+        <img class="img-haikyuu1" >
+        <img class="img-haikyuu2">
+    </div>
+    <div class="main-container5">
+        <div class="section5">
+            <h1>Sport</h1>
+            <br>
+            <p>Cycling, volleyball </p>
+        </div>
+        <img class="img-sport1" src="https://recommendmeanime.com/wp-content/uploads/2017/01/yowamushi-pedal-anime.jpg">
+        <img class="img-sport2">
+    </div>
+    <div class="main-container6">
+        <div class="section6">
+            <h1>Games I Play</h1>
+            <br>
+            <p>League of legends, mobile legends, minecraft, roblox, pokemon unite, clash of clans, player unknown battlegrounds, genshin impact </p>
+        </div>
+        <img class="img-game1" >
+        <img class="img-game2">
+        <img class="img-game3">
+        <img class="img-game4">
+        <img class="img-game5">
+        <img class="img-game6">
+        <img class="img-game7">
+    </div>
+    <div class="main-container7">
+        <div class="section7">
+            <h1>Fun Fact About Me</h1>
+            <br>
+            <P>I like reading manga and manhwa so much that i can read 100 chapters or more</P>
+            <br>
+            <p>I have asthma</p>
+            <br>
+            <p>I can’t get fat even if i eat more than what i need</p>
+        </div>
+    </div>
+    
+</body>
+</html>

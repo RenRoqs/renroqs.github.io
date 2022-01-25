@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  html{
+    scroll-behavior: smooth;
+  }
+body{
+  height:2500px;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Verdana;
+  background-color: black;
+}
+#beachimg{
+  width: 1500px;
+  opacity:0.9;
+}
+h1{
+  position:absolute;
+  top:350px;
+  left:-800px;
+  color:#FFFFFF;
+  font-size: 50px;
+  border:10px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  padding:30px;
+  animation: raul 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes raul{
+  from{left:-1000px;}
+  to{left:50px;}
+}
+#butones{
+  position: absolute;
+  top:550px;
+  left:-500px;
+  padding-top:30px;
+  padding-bottom:30px;
+  padding-left:50px;
+  padding-right:50px;
+  font-size:30px;
+  border-radius:20px;
+  border-color:white;
+  border-style:solid;
+  background-color: transparent;
+  color:white;
+  transition: 200ms linear;
+  animation: wink 2s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+#butones:hover{
+  background-color: #fd5e53;
+}
+#butones:active{
+  transform: scale(0.9);
+  transition:none;
+}
+@keyframes wink {
+  from{left:-500px;}
+  to{left:50px;}
+}
+#workspace{
+  position: absolute;
+  top:1000px;
+  background-color:#fd5e53;
+  width:1225px;
+  height:1350px;
+  left:100px;
+  top:1050px;
+  border-radius: 20px;
+  border-color: white;
+  border:30px;
+
+}
+#butonescolor{
+  text-decoration: none;
+  color:white;
+}
+#likes{
+background-color: #0096FF;
+position: absolute;
+height: 650px;
+width:500px;
+left: 100px;
+top:50px;
+color: white;
+font-size: 30px;
+border-style: solid;
+border: all 10px;
+border-color: white;
+border-radius: 20px;
+}
+#ls1{
+  font-size: 60px;
+  text-align: center;
+}
+#dislikes{
+background-color: #0096FF;
+position: absolute;
+height:380px;
+width: 500px;
+left: 625px;
+top: 50px;
+color: white;
+font-size: 30px;
+border-style: solid;
+border: all 10px;
+border-color: white;
+border-radius: 20px;
+}
+#ls2{
+  font-size: 60px;
+  text-align: center;
+}
+#home{
+  position: relative;
+}
+
+#likes > p{
+  position: relative;
+  left:50px;
+}
+#dislikes > p{
+  position: relative;
+  left:50px;
+}
+#cloud{
+  position:absolute;
+  left:130px;
+  top:1020px;
+  transform: rotate(-20deg);
+}
+#cloud2{
+  position: absolute;
+  top:1648px;
+  left:503px;
+  transform: rotate(-210deg) scale(0.9);
+}
+#megaphone{
+  position: absolute;
+  top: 1370px;
+  left:1000px;
+  transform: scale(1.3);
+}
+#Hobbies{
+  position: absolute;
+  height:260px;
+  width:500px;
+  background-color:  #0096FF;
+  top:490px;
+  left:625px;
+  border-style: solid;
+  border: all 10px;
+  border-color: white;
+  border-radius: 20px;
+  color:white;
+  font-size:30px;
+}
+#ls3{
+  font-size: 40px;
+  text-align: center;
+}
+#Hobbies > p{
+  position: relative;
+  left:50px;
+}
+#Favorites{
+  position: absolute;
+  height:360px;
+  width:500px;
+  background-color:  #0096FF;
+  top:760px;
+  left:100px;
+  border-style: solid;
+  border: all 10px;
+  border-color: white;
+  border-radius: 20px;
+  color:white;
+  font-size:30px;
+}
+#ls4{
+  font-size: 50px;
+  text-align: center;
+}
+#Favorites > p{
+  position: relative;
+  left:50px;
+}
+#Games{
+  position: absolute;
+  height:305px;
+  width:500px;
+  background-color:  #0096FF;
+  top:815px;
+  left:625px;
+  border-style: solid;
+  border: all 10px;
+  border-color: white;
+  border-radius: 20px;
+  color:white;
+  font-size:30px;
+}
+#ls5{
+  font-size: 50px;
+  text-align: center;
+}
+#Games > p{
+  position: relative;
+  left:50px;
+}
+#funfact{
+  position: absolute;
+  height:100px;
+  width:1025px;
+  background-color:  #0096FF;
+  top:1180px;
+  left:100px;
+  border-style: solid;
+  border: all 10px;
+  border-color: white;
+  border-radius: 20px;
+  color:white;
+  font-size:30px;
+}
+#ls6{
+  font-size: 40px;
+  position: relative;
+  left:50px;
+  bottom:15px;
+}
+#uno{
+  top:1990px;
+  left:1100px;
+  position: absolute;
+  transform: scale(0.6) rotate(40deg);
+}
+#mcpe{
+  top:1990px;
+  left:1040px;
+  position: absolute;
+  transform: scale(0.6);
+}
+#racket{
+  top:1550px;
+  left:880px;
+  position: absolute;
+  transform: scale(0.4) rotate(-100deg);
+}
+  </style>
+  <body>
+    <div id="nav">
+
+    </div>
+   <div id="home" >
+     <img id="beachimg" src="Images/Beach.jfif">
+     <h1>"You only fail when you stop trying"</h1>
+   </div>
+   <div>
+     <a id="butonescolor" href="#workspace"><button id="butones">Get Started</button></a>
+   </div>
+   <div id="workspace">
+      <div id="likes">
+        <h2 id="ls1">Likes</h2>
+        <p>>Traveling/Vacation</p>
+        <p>>Clouds</p>
+        <p>>Coffee</p>
+        <p>>Fruits</p>
+        <p>>Veggies</p>
+        <p>>Chocolates</p>
+        <p>>I like playing guitar</p>
+      </div>
+      <div id="dislikes">
+        <h2 id="ls2">Dislikes</h2>
+        <p>>Fake people</p>
+        <p>>Liars</p>
+        <p>>Noise</p>
+      </div>
+      <div id="Hobbies">
+        <h2 id="ls3">Hobbies and Sports</h2>
+        <p>>Badminton</p>
+        <p>>Tennis</p>
+      </div>
+      <div id="Favorites">
+        <h2 id="ls4">Favorite Movies</h2>
+        <p>>Horror</p>
+        <p>>Comedy</p>
+        <p>>Adventure</p>
+      </div>
+      <div id="Games">
+        <h2 id="ls5">Favorite Games</h2>
+        <p>>Minecraft</p>
+        <p>>Uno</p>
+      </div>
+      <div id="funfact">
+        <p id="ls6">Funfact: You can't count your hair</p>
+      </div>
+   </div>
+   <img id="cloud" src="Images/cloud.png">
+   <img id="cloud2" src="Images/cloud.png">
+   <img id="megaphone" src="Images/megaphone.png">
+   <img id="mcpe" src="Images/mcpe.png">
+   <img id="uno" src="Images/uno.png">
+   <img id="racket" src="Images/Racket.png">
+  </body>
+</head>
+</html>

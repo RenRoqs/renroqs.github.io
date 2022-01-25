@@ -1,0 +1,181 @@
+body {
+	background-color:#F2F2F2;
+	font-family: Verdana;
+}
+
+h2 {
+	background-color: #D99ABC;
+	font-size: 35px;
+	color: white;
+	border: 10px solid;
+	padding: 20px;
+	margin: 30px;
+	border-color: black;
+	
+}
+
+h1 {
+	font-size: 40px
+}
+
+#p1 {
+	font-size: 30px;
+}
+
+
+#ayyin {
+	font-family: Times New Roman;
+	color: Black;
+	font-size: 40px;
+}
+
+#pr1 {
+	background-color: #F2E0DC;
+	border: 10px;
+	padding: 20px;
+	margin: 30px;
+}
+
+#ren {
+	font-family: Verdana;
+	color: Black;
+	font-size: 35px;
+}
+
+#pr2 {
+	background-color: #7EE6FF;
+	border: 10px;
+	padding: 20px;
+	margin: 30px;
+}
+
+#ray {
+	font-family: Spectral;
+	color: Black;
+	font-size: 30px;
+}
+
+#pr3 {
+	background-color: #99BFAD;
+	border: 10px;
+	padding: 20px;
+	margin: 30px;
+}
+
+#lyn {
+	font-family: Times New Roman;
+	color: Black;
+	font-size: 40px;
+
+}
+
+#pr4 {
+	background-color: #BCB3F2;
+	border: 10px;
+	padding: 20px;
+	margin: 30px;
+}
+
+#cha {
+	font-family: Verdana;
+	color: Black;
+	font-size: 35px;
+	
+
+}
+
+#pr5 {
+	background-color: #F2CAC4;
+	border: 10px;
+	padding: 20px;
+	margin: 30px;
+}
+
+#mer {
+	font-family: Spectral;
+	color: Black;
+	font-size: 30px;
+	
+
+}
+
+#pr6 {
+	background-color: #049DD9;
+	border: 10px;
+	padding: 20px;
+	margin: 30px;
+}
+
+#dan {
+	font-family: Times New Roman;
+	color: Black;
+	font-size: 40px;
+	
+
+}
+
+#pr7 {
+	background-color: #D37879;
+	border: 10px;
+	padding: 20px;
+	margin: 30px;
+}
+
+#maye {
+	font-family: Verdana;
+	color: Black;
+	font-size: 35px;
+	
+
+}
+
+#pr8 {
+	background-color: #FFE5F1;
+	border: 10px;
+	padding: 20px;
+	margin: 30px;
+}
+
+#jr {
+	font-family: Spectral;
+	color: Black;
+	font-size: 30px;
+	
+
+}
+
+#pr9 {
+	background-color: #80A690;
+	border: 10px;
+	padding: 20px;
+	margin: 30px;
+}
+
+#bea {
+	font-family: Times New Roman;
+	color: Black;
+	font-size: 30px;
+	
+
+}
+
+#pr0 {
+	background-color: #F1F2CE;
+	border: 10px;
+	padding: 20px;
+	margin: 30px;
+}
+
+#top {
+	position: fixed;
+ position: fixed;
+  right: 0;
+  bottom: 0;
+ margin-bottom: 20px;
+ margin-right: 20px;
+padding-top: 10px;
+padding-left: 12px;
+padding-right: 12px;
+padding-bottom: 0px;
+text-decoration: none
+}
